@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>Snow UI</title>
+  </head>
+  <body>
+    <div class="container">
+      <!-- left sidebar -->
+      <aside class="leftsidebar">
+        <div class="left_container">
+          <div class="first">
+            <div class="first_profile">
+              <i class="fa-solid fa-circle-user"></i>
+              <p>ByeWind</p>
+            </div>
+            <div class="first_favorites">
+              <span>Favorites</span>
+              <span>Recently</span>
+            </div>
+            <ul>
+              <li>Overview</li>
+              <li>Projects</li>
+            </ul>
+          </div>
+          <div class="second">
+            <p>Dashboards</p>
+            <div class="second_dashboard">
+              <div class="dashboard hover">
+                <i class="fa-solid fa-chart-pie"></i>
+                <span>Overview</span>
+              </div>
+              <div class="dashboard hover">
+                <i class="fa-solid fa-dumpster"></i>
+                <span>eCommerce</span>
+              </div>
+              <div class="dashboard hover">
+                <i class="fa-regular fa-folder"></i>
+                <span>Projects</span>
+              </div>
+              <div class="dashboard hover">
+                <i class="fa-solid fa-book-open"></i>
+                <span>Online Courses</span>
+              </div>
+            </div>
+          </div>
+          <div class="third">
+            <p>Pages</p>
+            <div class="content">
+              <div class="user-profile">
+                <i class="fa-regular fa-id-badge"></i>
+                <span>User Profile</span>
+              </div>
+              <div class="third_over">
+                <span class="hover">Overview</span>
+                <span class="hover">Projects</span>
+                <span class="hover">Campaigns</span>
+                <span class="hover">Documents</span>
+                <span class="hover">Followers</span>
+              </div>
+              <div class="user-profile">
+                <i class="fa-regular fa-address-card"></i>
+                <span>Account</span>
+              </div>
+              <div class="user-profile">
+                <i class="fa-solid fa-users"></i>
+                <span>Corporate</span>
+              </div>
+              <div class="user-profile">
+                <i class="fa-solid fa-blog"></i>
+                <span>Blog</span>
+              </div>
+              <div class="user-profile">
+                <i class="fa-solid fa-comments"></i>
+                <span>Social</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </aside>
+      <!-- left sidebar ends -->
+      <!-- main -->
+      <main class="main">
+        <!-- header -->
+        <header class="header">
+          <div class="header_left">
+            <img src="/icons8-sidebar-16.png" alt="" style="font-size: 14px" />
+            <i class="fa-regular fa-star"></i>
+            <span style="color: #86848c">Dashboard</span>
+            <span style="color: #86848c"> / </span>
+            <span>Default</span>
+          </div>
+          <div class="header_right">
+            <div class="search-container">
+              <input
+                type="text"
+                id="search"
+                class="search"
+                placeholder="Search"
+              />
+              <i class="fa-sharp fa-solid fa-magnifying-glass search-icon"></i>
+            </div>
+            <div class="header_icons">
+              <i class="fa-solid fa-circle-half-stroke"></i>
+              <i class="fa-solid fa-clock-rotate-left"></i>
+              <i class="fa-regular fa-bell"></i>
+              <img src="/icons8-sidebar-16.png" alt="" />
+            </div>
+          </div>
+        </header>
+        <!-- header ends -->
+        <!-- hero overview -->
+        <div class="main-container">
+          <div class="hero flex">
+            <p>Overview</p>
+            <div class="flex r">
+              <span>Today</span>
+              <i class="fa-solid fa-chevron-down"></i>
+            </div>
+          </div>
+          <div class="counter-container">
+            <div class="blue">
+              <p>Views</p>
+              <div class="flex r" data-target="7265">
+                <h2>7,265</h2>
+                <div class="flex r">
+                  <p style="padding-right: 3px">+11.02%</p>
+                  <i
+                    class="fa-solid fa-arrow-trend-up"
+                    style="font-size: 9px"
+                  ></i>
+                </div>
+              </div>
+            </div>
+            <div class="gray">
+              <p>Visits</p>
+              <div class="flex r" data-target="7265">
+                <h2>3,671</h2>
+                <div class="flex r">
+                  <p style="padding-right: 3px">-0.03%</p>
+                  <i
+                    class="fa-solid fa-arrow-trend-up"
+                    style="font-size: 9px"
+                  ></i>
+                </div>
+              </div>
+            </div>
+            <div class="blue">
+              <p>New Users</p>
+              <div class="flex r" data-target="7265">
+                <h2>156</h2>
+                <div class="flex r">
+                  <p style="padding-right: 3px">+15.03%</p>
+                  <i
+                    class="fa-solid fa-arrow-trend-up"
+                    style="font-size: 9px"
+                  ></i>
+                </div>
+              </div>
+            </div>
+            <div class="gray">
+              <p>Active Users</p>
+              <div class="flex r" data-target="7265">
+                <h2>2,318</h2>
+                <div class="flex r">
+                  <p style="padding-right: 3px">+6.08%</p>
+                  <i
+                    class="fa-solid fa-arrow-trend-up"
+                    style="font-size: 9px"
+                  ></i>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- hero overview ends -->
+        <!-- graph -->
+        <div class="plotted-graph">
+          <div class="first-graph">
+            <div class="graph-users">
+              <p class="total-users">Total Users</p>
+              <p class="total-projects">Total Projects</p>
+              <p class="total-status">Operating Status</p>
+              <p>|</p>
+              <div class="bcircle"><p>This year</p></div>
+              <div class="bucircle"><p>Last year</p></div>
+            </div>
+            <div class="charst">
+              <canvas id="chartt" class="chartt"></canvas>
+            </div>
+          </div>
+          <div class="second-graph">
+            <div class="traffic">
+              <p class="dddd">Traffic by Website</p>
+              <div class="webs">
+                <span class="soc">Google</span>
+                <div class="lines">
+                  <span class="line-1"></span>
+                  <span class="line-2"></span>
+                  <span class="line-3"></span>
+                </div>
+              </div>
+              <div class="webs">
+                <span class="soc">Youtube</span>
+                <div class="lines">
+                  <span class="line-1 y"></span>
+                  <span class="line-2 y"></span>
+                  <span class="line-3 y"></span>
+                </div>
+              </div>
+              <div class="webs">
+                <span class="soc">Instagram</span>
+                <div class="lines">
+                  <span class="line-1 i"></span>
+                  <span class="line-2 i"></span>
+                  <span class="line-3 i"></span>
+                </div>
+              </div>
+              <div class="webs">
+                <span class="soc">Pinterest</span>
+                <div class="lines">
+                  <span class="line-1 p"></span>
+                  <span class="line-2 p"></span>
+                  <span class="line-3 p"></span>
+                </div>
+              </div>
+              <div class="webs">
+                <span class="soc">Facebook</span>
+                <div class="lines">
+                  <span class="line-1"></span>
+                  <span class="line-2"></span>
+                  <span class="line-3"></span>
+                </div>
+              </div>
+              <div class="webs">
+                <span class="soc">Twitter</span>
+                <div class="lines">
+                  <span class="line-1 t"></span>
+                  <span class="line-2 t"></span>
+                  <span class="line-3 t"></span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="chart-container">
+          <div class="chart-1">
+            <canvas id="barchart"></canvas>
+          </div>
+          <div class="chart">
+            <canvas id="doughnut" class="doughnut"></canvas>
+            <div class="details">
+              <ul></ul>
+            </div>
+          </div>
+        </div>
+        <!-- graph ends -->
+      </main>
+      <!-- main ends -->
+      <!-- right sidebar -->
+      <aside class="rightsidebar">
+        <div class="right_container">
+          <div class="first-right">
+            <span style="font-size: 12px">Notifications</span>
+            <div class="Notifications">
+              <span class="box">
+                <i class="fa-solid fa-bug"></i>
+              </span>
+              <div class="inside">
+                <span>You fixed a bug.</span>
+                <span style="color: #86848c">Just now</span>
+              </div>
+            </div>
+            <div class="Notifications">
+              <span class="box-s"><i class="fa-regular fa-user"></i></span>
+              <div class="inside">
+                <span>New user registered.</span>
+                <span style="color: #86848c">59 minutes ago</span>
+              </div>
+            </div>
+            <div class="Notifications">
+              <span class="box"><i class="fa-solid fa-bug"></i></span>
+              <div class="inside">
+                <span>You fixed a bug.</span>
+                <span style="color: #86848c">12 hours ago</span>
+              </div>
+            </div>
+            <div class="Notifications">
+              <span class="box-s"><i class="fa-brands fa-nfc-symbol"></i></span>
+              <div class="inside">
+                <span>Andi Lane subscribed to you.</span>
+                <span style="color: #86848c">Today, 11:59 AM</span>
+              </div>
+            </div>
+          </div>
+          <div class="second-right">
+            <span style="font-size: 12px">Activities</span>
+            <div class="Notifications">
+              <div class="circle">
+                <img
+                  src="https://res.cloudinary.com/damnmrtiw/image/upload/v1706121441/8_t86r6g.jpg"
+                  alt=""
+                />
+              </div>
+              <div class="inside">
+                <span>Changed the style.</span>
+                <span style="color: #86848c">Just now</span>
+              </div>
+            </div>
+            <div class="Notifications">
+              <div class="circle">
+                <img
+                  src="https://res.cloudinary.com/damnmrtiw/image/upload/v1706121440/5_qibioe.jpg"
+                  alt=""
+                />
+              </div>
+              <div class="inside">
+                <span>Released a new version.</span>
+                <span style="color: #86848c">59 minutes ago</span>
+              </div>
+            </div>
+            <div class="Notifications">
+              <div class="circle">
+                <img
+                  src="https://res.cloudinary.com/damnmrtiw/image/upload/v1706121440/7_j1sdah.jpg"
+                  alt=""
+                />
+              </div>
+              <div class="inside">
+                <span>Submitted a bug.</span>
+                <span style="color: #86848c">12 hours ago</span>
+              </div>
+            </div>
+            <div class="Notifications">
+              <div class="circle">
+                <img
+                  src="https://res.cloudinary.com/damnmrtiw/image/upload/v1706121438/2_py4mxz.jpg"
+                  alt=""
+                />
+              </div>
+              <div class="inside">
+                <span>Modified a data in Page X.</span>
+                <span style="color: #86848c">Today, 11:59 AM</span>
+              </div>
+            </div>
+            <div class="Notifications">
+              <div class="circle">
+                <img
+                  src="https://res.cloudinary.com/damnmrtiw/image/upload/v1706121438/4_oitmhv.jpg"
+                  alt=""
+                />
+              </div>
+              <div class="inside">
+                <span>Deleted a data in Project X.</span>
+                <span style="color: #86848c">Feb 2, 2024</span>
+              </div>
+            </div>
+          </div>
+          <div class="third-right">
+            <span style="font-size: 12px; padding-bottom: 10px">Contacts</span>
+            <div class="right-contacts">
+              <div class="circle">
+                <img
+                  src="https://res.cloudinary.com/damnmrtiw/image/upload/v1706121437/1_utcgnh.jpg"
+                  alt=""
+                />
+              </div>
+              <span>Natali Craig</span>
+            </div>
+            <div class="right-contacts">
+              <div class="circle">
+                <img
+                  src="https://res.cloudinary.com/damnmrtiw/image/upload/v1706121363/cld-sample.jpg"
+                  alt=""
+                />
+              </div>
+              <span>Drew Cano</span>
+            </div>
+            <div class="right-contacts">
+              <div class="circle">
+                <img
+                  src="https://res.cloudinary.com/damnmrtiw/image/upload/v1706121440/7_j1sdah.jpg"
+                  alt=""
+                />
+              </div>
+              <span>Andi Lone</span>
+            </div>
+            <div class="right-contacts">
+              <div class="circle">
+                <img
+                  src="https://res.cloudinary.com/damnmrtiw/image/upload/v1706121440/6_gl4pip.jpg"
+                  alt=""
+                />
+              </div>
+              <span>Korey Okumus</span>
+            </div>
+            <div class="right-contacts">
+              <div class="circle">
+                <img
+                  src="https://res.cloudinary.com/damnmrtiw/image/upload/v1706121438/2_py4mxz.jpg"
+                  alt=""
+                />
+              </div>
+              <span>Kate Morris</span>
+            </div>
+            <div class="right-contacts">
+              <div class="circle">
+                <img
+                  src="https://res.cloudinary.com/damnmrtiw/image/upload/v1706121441/8_t86r6g.jpg"
+                  alt=""
+                />
+              </div>
+              <span>Melody Macy</span>
+            </div>
+          </div>
+        </div>
+      </aside>
+      <!-- right sidebar -->
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
